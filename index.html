@@ -1311,63 +1311,98 @@
       </div>
     </section>
 
-    <section id="documents" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-eyebrow">Credentials &amp; Submission</span>
-          <h2 class="section-title">Official Documents</h2>
-          <p class="section-desc">Pure high-resolution copies of my professional curriculum vitae and formal application letter.</p>
-        </div>
+    <!-- =========================================================
+         PURE PICTURE DOCUMENTS (RESUME, APPLICATION LETTER, & NEW DOC)
+         ========================================================= -->
+    <section id="documents">
+      <div class="section-header">
+        <p class="section-subtitle">Credentials</p>
+        <h2 class="section-title">Official Documents</h2>
+      </div>
 
-        <div class="documents-grid">
-          <!-- Document 1: Pure Resume Picture -->
-          <div class="doc-card liquid-glass">
-            <div class="doc-header">
-              <span class="doc-title">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--aurora-crimson);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                Curriculum Vitae / Resume
-              </span>
-              <span class="doc-badge">Official Document</span>
-            </div>
-
-            <a href="#modal-resume" class="doc-preview-wrapper" title="Tap to view fullscreen">
-              <img src="WC Template.png" alt="Jay Bernard O. Homecillo Resume" class="doc-preview-img" onerror="this.onerror=null; this.src='image_4f0d83.png';" />
-            </a>
-
-            <div class="doc-card-actions">
-              <a href="#modal-resume" class="doc-btn">Fullscreen View</a>
-              <a href="WC Template.png" target="_blank" download="JayBernard_Homecillo_Resume.png" class="doc-btn">Download Image</a>
-            </div>
+      <div class="documents-grid">
+        <!-- Document 1: Resume -->
+        <div class="doc-card">
+          <div class="doc-header">
+            <span class="doc-title">Curriculum Vitae / Resume</span>
+            <span class="doc-badge">Official Document</span>
           </div>
 
-          <!-- Document 2: Pure Application Letter Picture -->
-          <div class="doc-card liquid-glass">
-            <div class="doc-header">
-              <span class="doc-title">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--aurora-lavender);"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-                Application Letter
-              </span>
-              <span class="doc-badge">Official Document</span>
-            </div>
+          <a href="#modal-resume" class="doc-preview-wrapper" title="Tap to view fullscreen">
+            <img src="WC%20Template.png" alt="Jay Bernard O. Homecillo Resume" class="doc-preview-img" />
+          </a>
 
-            <a href="#modal-letter" class="doc-preview-wrapper" title="Tap to view fullscreen">
-              <img src="Application-Letter-Homecillo-1.png" alt="Jay Bernard O. Homecillo Application Letter" class="doc-preview-img" onerror="this.onerror=null; this.src='image_4f0d7a.png';" />
-            </a>
+          <div class="doc-card-actions">
+            <a href="#modal-resume" class="doc-btn">Fullscreen View</a>
+            <a href="WC%20Template.png" target="_blank" download="WC_Template_Homecillo_Resume.png" class="doc-btn">Download Image</a>
+          </div>
+        </div>
 
-            <div class="doc-card-actions">
-              <a href="#modal-letter" class="doc-btn">Fullscreen View</a>
-              <a href="Application-Letter-Homecillo-1.png" target="_blank" download="JayBernard_Homecillo_ApplicationLetter.png" class="doc-btn">Download Image</a>
-            </div>
+        <!-- Document 2: Application Letter -->
+        <div class="doc-card">
+          <div class="doc-header">
+            <span class="doc-title">Application Letter</span>
+            <span class="doc-badge">Official Document</span>
+          </div>
+
+          <a href="#modal-letter" class="doc-preview-wrapper" title="Tap to view fullscreen">
+            <img src="Application-Letter-Homecillo-1.png" alt="Jay Bernard O. Homecillo Application Letter" class="doc-preview-img" />
+          </a>
+
+          <div class="doc-card-actions">
+            <a href="#modal-letter" class="doc-btn">Fullscreen View</a>
+            <a href="Application-Letter-Homecillo-1.png" target="_blank" download="Application-Letter-Homecillo-1.png" class="doc-btn">Download Image</a>
+          </div>
+        </div>
+
+        <!-- Document 3: New Document (e.g. Certificate, TOR, Diploma) -->
+        <div class="doc-card">
+          <div class="doc-header">
+            <span class="doc-title">Certificate / Additional Credential</span>
+            <span class="doc-badge">Verified Credential</span>
+          </div>
+
+          <a href="#modal-doc3" class="doc-preview-wrapper" title="Tap to view fullscreen">
+            <!-- Replace 'document3.png' with your actual filename -->
+            <img src="Resume-JayBernard-Homecillo2.png" alt="Jay Bernard O. Homecillo Additional Credential" class="doc-preview-img" onerror="this.onerror=null; this.src='https://placehold.co/800x1131/181418/d1b0d5?text=New+Document+(document3.png)';" />
+          </a>
+
+          <div class="doc-card-actions">
+            <a href="#modal-doc3" class="doc-btn">Fullscreen View</a>
+            <a href="Resume-JayBernard-Homecillo2.png" target="_blank" download="Resume-JayBernard-Homecillo2.png" class="doc-btn">Download Image</a>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Fullscreen Modals (CSS Only) -->
+    <div id="modal-resume" class="doc-modal">
+      <div class="doc-modal-content">
+        <a href="#documents" class="doc-modal-close" title="Close">&times;</a>
+        <img src="WC%20Template.png" alt="Jay Bernard O. Homecillo Resume Full View" class="doc-modal-img" />
+      </div>
+    </div>
+
+    <div id="modal-letter" class="doc-modal">
+      <div class="doc-modal-content">
+        <a href="#documents" class="doc-modal-close" title="Close">&times;</a>
+        <img src="Application-Letter-Homecillo-1.png" alt="Jay Bernard O. Homecillo Application Letter Full View" class="doc-modal-img" />
+      </div>
+    </div>
+
+    <!-- Modal for Document 3 -->
+    <div id="modal-doc3" class="doc-modal">
+      <div class="doc-modal-content">
+        <a href="#documents" class="doc-modal-close" title="Close">&times;</a>
+        <img src="Resume-JayBernard-Homecillo2.png" alt="Additional Credential Full View" class="doc-modal-img" onerror="this.onerror=null; this.src='https://placehold.co/800x1131/181418/d1b0d5?text=New+Document+Full+View';" />
+      </div>
+    </div>
+
     <!-- Pure CSS Fullscreen Modals -->
     <div id="modal-resume" class="doc-modal">
       <div class="doc-modal-content">
         <a href="#documents" class="doc-modal-close" title="Close preview">&times;</a>
-        <img src="WC Template.png" alt="Jay Bernard O. Homecillo Resume Full View" class="doc-modal-img" onerror="this.onerror=null; this.src='image_4f0d83.png';" />
+        <img src="Resume-JayBernard-Homecillo2.png" alt="Jay Bernard O. Homecillo Resume Full View" class="doc-modal-img" onerror="this.onerror=null; this.src='image_4f0d83.png';" />
       </div>
     </div>
 
